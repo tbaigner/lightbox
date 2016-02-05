@@ -287,6 +287,7 @@ EkkoLightbox.prototype = {
 				image = $('<img />')
 				image.attr('src', img.src)
 				image.addClass('img-responsive')
+				image.addClass('img-fluid')
 				@lightbox_body.html image
 				@modal_arrows.css 'display', 'block' if @modal_arrows
 				image.load =>

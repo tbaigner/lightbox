@@ -336,6 +336,7 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
             image = $('<img />');
             image.attr('src', img.src);
             image.addClass('img-responsive');
+            image.addClass('img-fluid');
             _this.lightbox_body.html(image);
             if (_this.modal_arrows) {
               _this.modal_arrows.css('display', 'block');
