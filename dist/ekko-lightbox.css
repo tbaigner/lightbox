@@ -60,3 +60,7 @@
 .ekko-lightbox .modal-footer {
   text-align: left;
 }
+
+.octicon {
+  font-size: 48px !important;
+}

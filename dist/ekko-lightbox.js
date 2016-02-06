@@ -422,8 +422,8 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
 
   $.fn.ekkoLightbox.defaults = {
     gallery_parent_selector: 'document.body',
-    left_arrow_class: '.glyphicon .glyphicon-chevron-left',
-    right_arrow_class: '.glyphicon .glyphicon-chevron-right',
+    left_arrow_class: '.glyphicon .glyphicon-chevron-left .octicon .octicon-chevron-left',
+    right_arrow_class: '.glyphicon .glyphicon-chevron-right .octicon .octicon-chevron-right',
     directional_arrows: true,
     type: null,
     always_show_close: true,

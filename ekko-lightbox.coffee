@@ -367,8 +367,8 @@ $.fn.ekkoLightbox = ( options ) ->
 
 $.fn.ekkoLightbox.defaults = {
 	gallery_parent_selector: 'document.body'
-	left_arrow_class: '.glyphicon .glyphicon-chevron-left' #include class . here - they are stripped out later
-	right_arrow_class: '.glyphicon .glyphicon-chevron-right' #include class . here - they are stripped out later
+	left_arrow_class: '.glyphicon .glyphicon-chevron-left .octicon .octicon-chevron-left' #include class . here - they are stripped out later
+	right_arrow_class: '.glyphicon .glyphicon-chevron-right .octicon .octicon-chevron-right' #include class . here - they are stripped out later
 	directional_arrows: true #display the left / right arrows or not
 	type: null #force the lightbox into image / youtube mode. if null, or not image|youtube|vimeo; detect it
 	always_show_close: true #always show the close button, even if there is no title
